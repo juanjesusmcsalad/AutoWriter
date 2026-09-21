@@ -2,14 +2,17 @@ import tkinter as tk
 import keyboard
 
 def type_current_text():
-    text = entry.get()
+    text = entry.get("1.0", "end-1c")
     keyboard.write(text, delay=0.01)
 
 
 root = tk.Tk()
-root.title("AutoWriter")
+root.geometry("200x200")
+root.title("Auto Writer")
 
-entry = tk.Entry(root, width=50)
+root.configure(bg="#000000")
+
+entry = tk.Text(root, width=50, height=50)
 entry.pack(padx=10, pady=10)
 
 keyboard.add_hotkey('win+y', type_current_text)
