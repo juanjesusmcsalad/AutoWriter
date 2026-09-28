@@ -1,1 +1,1 @@
-Download the file in Releases -> Open it -> Paste in the text that you desire to auto write -> Press " WIN + Y " to activate the auto writer.
+Download the ***LATEST*** version in [Releases](https://github.com/juanjesusmcsalad/AutoWriter/releases/tag/V1.0.2) (V.1.0.2), then run the .exe file, enter in the text that you want to WRITE / PASTE, press F8(default hotkey) or the corresponding hotkey (modifiable) that is selected in the "hotkey" box to start auto writing.
